@@ -1,36 +1,5 @@
 # Project Structure
-/src
-│── main.ts
-│── server.ts
-│── presentation
-│   └── routers
-│       └── contact-router.ts
-├── domain
-│   ├── interfaces
-│   │   ├── repositories
-│   │   │    └── contact-repository.ts
-│   │   └── use-cases
-│   │       └── contact
-│   │           ├── get-all-contacts.ts
-│   │           └── create-contact.ts
-│   ├── entities
-│   │   └── contact.ts
-│   ├── repositories
-│   │   └── contact-repository.ts
-│   └── use-cases
-│       └── contact
-│           ├── get-all-contacts.ts
-│           └── create-contact.ts
-└── data
-    ├── interfaces
-    │   └── data-sources
-    │       ├── database-wrapper.ts
-    │       └── contact-data-source.ts
-    └── data-sources
-        └── mongodb
-            ├── models
-            │   └── contact.ts
-            └── mongodb-contact-data-source.ts
+<img width="447" alt="image" src="https://user-images.githubusercontent.com/71697096/174963036-33f8a0b8-45c7-4cec-b19b-1f74a1fdbebe.png">
 
 # Layers
 

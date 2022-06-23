@@ -7,7 +7,7 @@ import { GetAllContacts } from "./domain/use-cases/contact/get-all-contacts";
 import ContactsRouter from "./presentation/routers/contact-router";
 import server from "./server";
 
-async () => {
+(async () => {
   const client: MongoClient = new MongoClient(
     "mongodb://localhost:27017/contacts"
   );
@@ -30,4 +30,4 @@ async () => {
 
   server.use("/contact", contactMiddleware);
   server.listen(4000, () => console.log("Running on server"));
-};
+})();

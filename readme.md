@@ -11,3 +11,10 @@ The inner core (domain) layer holds all business logic (use cases, repositories)
 
 ## Data
 The data layer holds all infrastructure implementations (data sources).
+
+# How to run the app
+## Build
+npm run dev:build
+
+## Run
+npm run dev:serve
